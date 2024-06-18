@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta here -->
+    <meta charset="UTF-8">
+    <meta title="Rice farms" property= "og:title" >
+    <meta name="description" content= "Rice farm workshops are an important part of new generational agricultural education. And was selected to contribute to the development of rural culture. We use traditional solutions, disinfectants, pesticides, water, and other post-storage conditions. Farm workers will increase their income by attending workshops. It is a joint venture with agricultural experts, fellow farmers, and scholars involved in intellectual agricultural trading and receives funding from the government itself. The group aims to support agriculture and food, increase income, and strengthen local communities. this seminar should help our farmers to reach their dreams.">
+    <meta name = "author" content= "Ashley Nicole B. Dominguez">
+    <meta name="keywords" content= "Rice, Cultivation, Growing, Projects, Government"/>
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <meta property="og:url" content= "https://github.com/saffronflea/appdev-fl2">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!--tailwind, css, flowbite for nav, icon, title-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+    <link rel="shortcut icon" href="images\goldy-removebg-preview.png" type="image/x-icon">
+    <title>Rice Farms</title>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="navbar">
+      <nav class="bg-black sm:py-[40px] lg:py-[8px]">
+        <div class="mx-auto max-w-7xl px-10">
+          <div class="relative flex h-20 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <!-- Mobile menu button-->
+              <button type="button" class="relative hidden inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="absolute -inset-0.5"></span>
+                <span class="sr-only">Open main menu</span>
+                <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div class="flex flex-1 justify-center">
+              <div class="flex items-center">
+                <img class=" h-[40px] w-[40px]" src="images\goldy-removebg-preview.png" alt="Your Company">
+              </div>
+              <div class="sm:ml-6">
+                <div class="flex space-x-4 lg:py-7 lg:ml-[700px] sm:ml-[400px]">
+                  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                  <a href="D:\APPDEV-FL2\index.html" class="hover:bg-red-700 text-white rounded-md px-3 py-2 text-25% font-medium" aria-current="page">Home</a>
+                  <a href="D:\APPDEV-FL2\pages\about.html" class="hover:bg-red-700 text-white rounded-md px-3 py-2 text-25% font-medium" aria-current="page">About</a>
+                  <a href="D:\APPDEV-FL2\pages\contact.html" class="text-gray-300 hover:bg-green-700 hover:text-white rounded-md px-3 py-2 text-25% font-medium">Contact</a>
+                  <a href="#" class="text-gray-300 hover:bg-green-700 hover:text-white rounded-md px-3 py-2 text-25% font-medium">Download</a>
+                
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="hidden" id="mobile-menu">
+          <div class="space-y-1 px-2 pb-3 pt-2">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a href="D:\APPDEV-FL2\index.html" class="hover:bg-red-700 text-white rounded-md px-3 py-2 text-25% font-medium" aria-current="page">Home</a>
+            <a href="D:\APPDEV-FL2\pages\about.html" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">About</a>
+            <a href="D:\APPDEV-FL2\pages\contact.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contact</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Download</a>
+            <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Services</a>
+          </div>
+        </div>
+      </nav>
+    </section>  
+    <!--carousel-->
+    <section>
+      <div class="max-w-5lg max-h-lg mx-auto static">
+ 
+        <div id="default-carousel" class="relative"s data-carousel="static">
+         
+            <div class="overflow-hidden relative  h-56 sm:h-64 xl:h-80 2xl:h-96">
+               
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <span class="absolute bg-blend-darken top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl ">Primer Slide</span>
+                    <img src="https://www.agrivi.com/wp-content/uploads/2016/12/Blog-Sustainable-Rice-Farming.png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                </div>
+               
+                <div class="hidden duration-700 bg-blend-darken ease-in-out" data-carousel-item>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/SMB_Ricefields.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                </div>
+               
+                <div class="hidden duration-700 bg-blend-darken ease-in-out" data-carousel-item>
+                    <img src="https://cff2.earth.com/uploads/2018/09/10140159/Rice-farming-has-a-surprisingly-harmful-environmental-impact-960x640.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                </div>
+            </div>
+           
+           
+            <button aria-controls="true" title="left" role="button" type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
+                <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 group-focus:ring-4 group-focus:ring-white  group-focus:outline-none">
+                    <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                </span>
+            </button>
+            <button aria-controls="true" title="right" role="button" type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
+                <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 0 group-focus:ring-4 group-focus:ring-white  group-focus:outline-none">
+                    <svg class="w-5 h-5  sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </span>
+            </button>
+        </div>
+    </div>
+    </section>
+    <!--hero page-->
+    <section id="hero">
+      <div class="mb-40 section-container">
+
+
+        <h1 class="mt-16 font-bold text-2xl">Agricultural  Program By</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmr1zK1nUYt6Mxj2839e0zgWtSEtrwvU7Iog&s" class="w-md h-md mx-auto mt-16 mb-16" alt="">
+
+        <h2 class="mt-16 font-bold text-2xl">Welcome in Rice Farms Seminar</h2>
+        <p class="mb-10 mt-8 text-xl section-content text-black">
+          Rice farm workshops are an important part of new generational agricultural education. And was selected to contribute to the development of rural culture. We use traditional solutions, disinfectants, pesticides, water, and other post-storage conditions. Farm workers will increase their income by attending workshops. It is a joint venture with agricultural experts, fellow farmers, and scholars involved in intellectual agricultural trading and receives funding from the government itself. The group aims to support agriculture and food, increase income, and strengthen local communities. this seminar should help our farmers to reach their dreams.
+        </p>
+        <!-- Button Container -->
+        <div class="button-container">
+          <a href="D:\APPDEV-FL2\pages\about.html" class="p-4 px-8 duration-200 rounded-full shadow-lg bg-black hover:bg-red-700" > About </a>
+          <a  href="#" class="p-4 px-8 duration-200 rounded-full shadow-lg bg-black hover:bg-red-700" > Contact </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+      <div class="section-container overflow-hidden">
+        <div class="flex flex-col col-sm-6 md:flex-row md:space-x-32" >
+          <!-- Image -->
+          <div class="md:w-1/2">
+            <img
+              src="https://www.ewg.org/sites/default/files/styles/wide_standard_xl/public/2023-10/RiceCropBlog.jpg?h=2e181f1f&itok=dgIuzrRT"
+              alt=""
+              class="md:absolute right-[52.42%] rounded-lg overflow-hidden"
+            />
+          </div>
+          </div>
+          <!-- Items Container -->
+          <div
+            class="content-start space-y-12 lg:ml-[540px] sm:ml-[450px] mt-16 text-xl md:w-1/2 md:mb-60 md:text-left md:p-6"
+          >
+          <h2 class="font-bold text-2xl">TYPES OF RICE</h2>
+            <!-- Item 1 -->
+            <div>
+              <h3 class="mb-10 mt-2 text-xl text-black">Rice has a lot of different varieties around the world and had their own distinct yet different flavors, textures, and the cooking methods. White rice is light and so easy to cook, while brown rice is much chewier and more healthier. while Jasmine rice is fragrant and slightly sticky, making it perfect for Asian dishes, Basmati rice has long, fragrant grains and is ideal for pilaf. Sticky rice is very glutinous and could be used to make sweet desserts. While Italian rice has its foreign soft texture. Wild rice is very nutty and chewy and it is often used and mixed with other types of rice as an added flavor. Each of these types of rice truly brings its own unique flavors to different types of dishes. </h3>
+              <div class="mt-5 mb-5 ">
+                <a href="pages\rice.html" class="p-2 px-4 hover:bg-green-400 duration-200  border-solid border-black rounded-xl text-white bg-black">learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="mb-[20px] section section-container">
+            <!-- Image -->
+            <div class=" section-container overflow-hidden ">
+              <img 
+                src="images\3EE4657D-B4CF-41BB-924BADF8641345D0_source.png"
+                alt=""
+                class="md:absolute sm:h-[600px] lg:h-[800px] rounded-lg overflow-hidden left-[52.42%]"
+              />
+            </div>
+          <!-- Items Container -->
+          <div
+            class="mt-4 sm:mt-[120px] space-y-12 text-xl md:w-1/2 md:mb-60 md:text-left md:p-6 content-start"
+          >
+          <h2 class="font-bold text-2xl">GOVERNMENT SUPPORT FOR LOCAL AGRICULTURE</h2>
+            <!-- Item 1 -->
+            <div>
+              <h3 class="mb-10 mt-2 flex-col text-xl text-black">The government aids rice farming by offering high-yield seeds, affordable credit, and enhancing irrigation systems. Rice plays a significant role in Filipino culture, a key component in traditional meals and festivities. Farming traditions and techniques related to growing rice are frequently handed down through generations, preserving a valuable legacy of agricultural knowledge. Rice cultivating traditions and techniques are passed down from generation to generation, preserving a legacy of valuable agricultural knowledge. Nevertheless, rice crops will remain the central point of the Philippine economy and culture, ensuring both food security and economic stability. </h3>
+              <div>
+                <a href="pages\GOVT_SUPPORT.html" class="p-2 px-4 hover:bg-green-400 duration-200 border-solid mt-5 mb-5 rounded-xl text-white bg-black">learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="relative flex flex-col md:flex-row md:space-x-32">
+
+        </div>
+      </div>
+      <div class="section-container overflow-hidden lg:mt-[-80px] lg:mb-[200px] sm:my-[200px]">
+        <div class="flex flex-col col-sm-6 md:flex-row md:space-x-32" >
+          <!-- Image -->
+          <div class="md:w-1/2">
+            <img
+              src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/486fd72d-e81b-4088-af34-8a699f6e9089/dd4ywtz-ce0df438-5fd2-4ad2-a86f-76e7e4434eca.jpg/v1/fill/w_1096,h_729,q_70,strp/planting_rice_by_hand__the_philippines_2011_by_nilsphotos_dd4ywtz-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ4NmZkNzJkLWU4MWItNDA4OC1hZjM0LThhNjk5ZjZlOTA4OVwvZGQ0eXd0ei1jZTBkZjQzOC01ZmQyLTRhZDItYTg2Zi03NmU3ZTQ0MzRlY2EuanBnIiwiaGVpZ2h0IjoiPD04NTIiLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC80ODZmZDcyZC1lODFiLTQwODgtYWYzNC04YTY5OWY2ZTkwODlcL25pbHNwaG90b3MtNC5wbmciLCJvcGFjaXR5Ijo5NSwicHJvcG9ydGlvbnMiOjAuNDUsImdyYXZpdHkiOiJjZW50ZXIifX0.xgdlTBqDuQgwhOHzr3G3H3lh6CcfVTdQTaCpM6kcmo0"
+              alt=""
+              class="md:absolute right-[52.42%]  sm:h-[500px] lg:h-[700px] rounded-lg overflow-hidden"
+            />
+          </div>
+          </div>
+          <!-- Items Container -->
+          <div
+            class="content-start space-y-12 lg:ml-[540px] sm:ml-[450px] mt-16 text-xl md:w-1/2 md:mb-60 md:text-left md:p-6"
+          >
+          <h2 class="font-bold text-2xl">CULTIVATION</h2>
+            <!-- Item 1 -->
+            <div>
+              <h3 class="mb-10 mt-2 text-xl text-black">Rice cultivation is influenced by weather, soil quality, water, pests, and how the farmer handles the crop. Other factors also affect rice production, such as climate change, government regulations, and farmers' finances. Growing rice depends on many factors, including weather, soil type, and the amount of water available. Rice grows best in warm temperatures with adequate rainfall, but too much rain or extreme weather can damage the crop.</h3>
+              <div class="mt-5 mb-5 ">
+                <a href="pages\CULTIVATION.html" class="p-2 px-4 hover:bg-green-400 duration-200 border-solid border-black rounded-xl text-white bg-black">learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!--card section-->
+    <section class="flex justify-center flex-col md:flex-row mx-[55px] my-[30px]">
+      <div class="section-container  space-y-4 place-content-center border-4 border-solid border-black rounded-md bg-transparent h-[400px] w-[300px] mb-5 mx-2">
+        <h3 class="card-header mt-[0px] font-bold text-black text-2xl ">
+          Rice types
+         </h3>
+        <img src="https://www.usarice.com/images/default-source/think-rice/rice-varieties/rough-rice-grains.jpg?sfvrsn=f27fd28d_4"
+         class=" w-[100%] h-[50%] rounded-md mt-[px] my-3 border-solid border-2 border-black" alt="">
+ 
+         <div class="mt-[50px]">
+          <a href="rice.hmtl" class="card-button duration-200 top-1 p-2 px-4 hover:bg-green-400 border-solid border-2 border-black rounded-xl text-white bg-green-700">learn more</a>
+        </div>
+      </div>
+      <div class="section-container space-y-4 place-content-center border-4 border-solid border-black rounded-md bg-transparent h-[400px] w-[300px] mb-5 mx-2">
+        <h3 class="card-header mt-[-30px] font-bold text-black text-2xl ">
+          Government Support
+         </h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNhXPwwTLXMA-31jIC8xJZ1aAh7PjOi4hxgQYZGB4abMvSIZRQPYvMzoEL_S_AN4NDZSk&usqp=CAU"
+         class=" w-[100%] h-[50%] rounded-md mt-[10px] my-3 border-solid border-2 border-black" alt="">
+ 
+         <div class="mt-[50px]">
+          <a href="D:\APPDEV-FL2\pages\GOVT_SUPPORT.html" class="card-button duration-200 top-1 p-2 px-4 hover:bg-green-400 border-solid border-2 border-black rounded-xl text-white bg-green-700">learn more</a>
+        </div>
+      </div>      
+      <div class="section-container  space-y-4 place-content-center border-4 border-solid border-black rounded-md bg-transparent h-[400px] w-[300px] mb-5 mx-2">
+        <h3 class="card-header mt-[0px] font-bold text-black text-2xl ">
+          Cultivation
+         </h3>
+        <img src="https://static.vecteezy.com/system/resources/previews/026/569/752/original/asian-farmer-growing-rice-vietnamese-woman-in-a-hat-with-bunch-of-ears-agricultural-worker-vector.jpg"
+         class=" w-[100%] h-[50%] rounded-md mt-[px] my-3 border-solid border-2 border-black" alt="">
+ 
+         <div class="mt-[50px]">
+          <a href="D:\APPDEV-FL2\pages\CULTIVATION.html" class="card-button duration-200 top-1 p-2 px-4 hover:bg-green-400 border-solid border-2 border-black rounded-xl text-white bg-green-700">learn more</a>
+        </div>
+      </div>
+    </section>
+    <!--freaking map-->
+    <section>
+      <div >
+        <iframe aria-label="map" class="section section-content rounded-md border-2 my-5 border-solid border-black lg:w-[900px] lg:h-[500px] sm:w-[500px] sm:h-[900px]" 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123413.50613393787!2d120.67760731039299!3d14.843651820262625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339653d34802b115%3A0x16e57d650cc1f4f!2sOffice%20of%20the%20City%20Agriculture!5e0!3m2!1sen!2sph!4v1717677508979!5m2!1sen!2sph"
+         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" pad>
+        </iframe>
+      </div>
+          </section>
+          <!--footerr-->
+     <footer class="bg-black text-white">
+      <div class="section section-container">
+        <div class="flex flex-col place-content-center items-center justify-between md:flex-row">
+          <!-- Image -->
+          <img src="images\goldy-removebg-preview.png" alt="" class="scale-50" />
+          <!-- Container for Menus & Social -->
+          <div
+            class="flex flex-col items-center justify-between flex-1 mb-10 space-y-6 md:flex-row md:mb-0 md:space-y-0 text-grayishBlue"
+          >
+            <!-- Menus -->
+            <div
+              class="flex flex-col mr-[20px]  space-y-4 md:flex-row md:ml-24 md:space-x-24 md:space-y-0"
+            >
+              <!-- Menu 1 -->
+              <div class="flex flex-col space-y-4 text-center md:text-left">
+                <div><a href="#" class="hover:text-red-700">FAQs</a></div>
+                <div>
+                  <a href="#" class="hover:text-red-700">Contact Us</a>
+                </div>
+              </div>
+              <!-- Menu 2 -->
+              <div class="flex flex-col space-y-4 text-center md:text-left">
+                <div>
+                  <a href="#" class="hover:text-strongCyan">Privacy Policy</a>
+                </div>
+                <div>
+                  <a href="#" class="hover:text-red-700">Press Kit</a>
+                </div>
+              </div>
+              <!-- Menu 3 -->
+              <div class="flex flex-col space-y-4 text-center md:text-left">
+                <div>
+                  <a href="#" class="hover:text-red-700">Install Guide</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Icons -->
+            <div aria-label=" its to button facebook" class="flex justify-between w-32 py-1">
+              <a href="#"
+                ><img
+                  src="images/icon-facebook.svg"
+                  alt=""
+                  class="duration-200 ficon"
+              /></a>
+              <a aria-label=" its to button twitter" href="#"
+                ><img
+                  src="images/icon-twitter.svg"
+                  alt=""
+                  class="duration-200 ficon"
+              /></a>
+              <a aria-label=" its to button instagram" href="#"
+                ><img
+                  src="images/icon-instagram.svg"
+                  alt=""
+                  class="duration-200 ficon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--Rice cultivation is influenced by weather, soil quality, water, pests, and how the farmer handles the crop. Other factors also affect rice production, such as climate change, government regulations, and farmers' finances. Growing rice depends on many factors, including weather, soil type, and the amount of water available. Rice grows best in warm temperatures with adequate rainfall, but too much rain or extreme weather can damage the crop. For rice to grow well, soil must be of good quality and have the right pH levels. Having enough water through rain or irrigation is also very important for rice cultivation. Pests and diseases, such as rice weevils and stem pests, can harm rice plants. Weeds can also rob rice of nutrients. How farmers manage their crops, such as planting at the right time and using good seeds, can make a big difference in how much rice they grow. It is important that farmers have access to fertilizers, pesticides, herbicides, etc. to keep the crop healthy and productive. Climate change, soil erosion, and water pollution can harm rice cultivation. Factors such as education, technology, government support, and market conditions also affect the success of rice cultivation. Organizations like IRRI and PhilRice are working on improving rice varieties and farming practices to produce better rice, all of which work together to determine the quality of rice cultivation, impacting food security and farmers’ livelihoods.-->
+  </body>
+</html>
